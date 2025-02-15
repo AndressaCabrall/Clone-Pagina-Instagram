@@ -16,6 +16,7 @@ body {
 }
 
 /* Caixa principal */
+
 .container {
 
     width: 70vw;
@@ -259,4 +260,284 @@ footer p {
 
     font-size: 0.7rem;
     color: #7a7474
+}
+
+/* Primeira responsividade 1200px*/
+
+@media(max-width:1200px) {
+
+
+    .imagem-celular img {
+
+        width: 400px;
+        height: 500px;
+        display: flex;
+        margin: 25px 0px 25px 60px;
+
+
+
+    }
+
+    .imagens-instagram img {
+
+        width: 220px;
+        height: 427px;
+        top: 47px;
+        left: 192px;
+    }
+
+    .form1 {
+
+        width: 330px;
+        height: 380px;
+
+
+    }
+
+    .form1 img {
+
+        width: 200px;
+        margin: 0 auto;
+
+    }
+
+
+    .form1 input {
+
+        font-size: 0.8rem;
+
+
+    }
+
+    .form1 button {
+
+        font-size: 0.8rem;
+
+
+    }
+
+    .form1 p {
+
+
+        font-size: 0.7rem;
+        margin: 20px auto;
+
+    }
+
+    .form1 a {
+
+        font-size: 0.8rem;
+
+    }
+
+    .form2 {
+
+        width: 330px;
+        height: 30px;
+        padding: 5px 5px;
+
+
+
+    }
+
+    .form2 p {
+
+        font-size: 0.8rem;
+
+
+    }
+
+    .form2 a {
+
+        font-size: 0.8rem;
+
+    }
+
+    .form3 {
+
+        width: 330px;
+        height: 30px;
+
+    }
+
+    .form3 p {
+
+        font-size: 0.9rem;
+
+    }
+
+    .imagem-google img {
+
+        width: 130px;
+    }
+
+    .imagem-ios img {
+        width: 130px;
+
+
+    }
+
+}
+
+/* Segunda responsividade 992px */
+
+@media(max-width:992px) {
+
+    .container {
+
+        width: 90vw;
+        height: 90vh;
+
+    }
+
+
+}
+
+/* Terceira responsividade 768px */
+
+@media(max-width:768px) {
+
+    .container {
+
+        width: 100vw;
+        height: auto;
+        margin-bottom: 0;
+
+    }
+
+
+    .imagem-celular img {
+
+        width: 350px;
+        height: 420px;
+        margin: 50px 0 0 30px;
+
+    }
+
+    .imagens-instagram img {
+
+        width: 190px;
+        height: 360px;
+        top: 68px;
+        left: 147px;
+    }
+
+    .caixa-form {
+
+        margin: 30px auto;
+
+    }
+
+    .form1 {
+
+        width: 300px;
+        height: 350px;
+        margin: 0;
+    }
+
+
+    .form1 img {
+
+        width: 150px;
+        margin: 0 auto;
+
+    }
+
+    .form1 input {
+
+        font-size: 0.7rem;
+
+
+    }
+
+    .form1 button {
+
+        font-size: 0.7rem;
+
+
+    }
+
+    .form1 p {
+
+
+        font-size: 0.6rem;
+        margin: 20px auto;
+
+    }
+
+    .form1 a {
+
+        font-size: 0.8rem;
+
+    }
+
+    .form2 {
+
+        width: 300px;
+        margin: 20px 0 0 0;
+
+    }
+
+    .form2 p {
+
+        font-size: 0.7rem;
+
+
+    }
+
+    .form2 a {
+
+        font-size: 0.7rem;
+
+    }
+
+    .form3 {
+
+        width: 300px;
+        height: auto;
+        margin: 0;
+
+    }
+
+    .form3 p {
+
+        font-size: 0.8rem;
+       margin: 20px auto;
+       
+
+    }
+
+    .imagens-aplicativos{
+
+        margin: 0 auto;
+        
+    }
+
+    .imagem-google img {
+
+        width: 130px;
+    }
+
+    .imagem-ios img {
+        width: 130px;
+
+
+    }
+
+    .info {
+        width: 80vw;
+        margin: 0 auto;
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
 }
