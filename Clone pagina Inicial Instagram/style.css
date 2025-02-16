@@ -502,15 +502,15 @@ footer p {
     .form3 p {
 
         font-size: 0.8rem;
-       margin: 20px auto;
-       
+        margin: 20px auto;
+
 
     }
 
-    .imagens-aplicativos{
+    .imagens-aplicativos {
 
         margin: 0 auto;
-        
+
     }
 
     .imagem-google img {
@@ -527,17 +527,199 @@ footer p {
     .info {
         width: 80vw;
         margin: 0 auto;
-    
-    
+
+
+    }
+
+}
+
+/* Quarta responsividade 600px */
+
+@media(max-width:600px) {
+
+
+    .container {
+
+        width: 100vw;
+        margin: 0;
+
     }
 
 
+    .imagem-celular img {
+
+        width: 280px;
+        height: 400px;
+        margin: 60px auto;
+    }
+
+    .imagens-instagram img {
+
+        width: 150px;
+        height: 340px;
+        top: 76px;
+        left: 105px;
+    }
+
+    .form1 {
+
+        width: 250px;
+        height: 320px;
+        margin-top: 30px;
+    }
 
 
+    .form1 img {
+
+        width: 100x;
+        margin: 0 auto;
+
+    }
+
+    .form1 input {
+
+        margin: 5px 15px 15px 15px;
+        font-size: 0.7rem;
 
 
+    }
+
+    .form1 button {
+
+        margin: 5px 15px 10px 15px;
+        font-size: 0.7rem;
+
+    }
+
+    .linha-ou span {
+
+        font-size: 0.7rem;
+        margin: 10px 0 10px 0px;
+
+    }
+
+    .linha-ou {
+
+        margin: 0;
+    }
+
+    .form1 p {
 
 
+        font-size: 0.6rem;
+        margin: 20px auto;
 
+    }
+
+    .form1 a {
+
+        font-size: 0.8rem;
+
+    }
+
+    .form2 {
+
+        width: 250px;
+        height: auto;
+        padding: 10px 10px;
+
+    }
+
+    .form2 p {
+
+        font-size: 0.7rem;
+
+
+    }
+
+    .form2 a {
+
+        font-size: 0.7rem;
+        font-weight: 500;
+
+    }
+
+    .form3 {
+
+        width: 250px;
+        height: auto;
+        margin: 0;
+
+    }
+
+    .form3 p {
+
+        font-size: 0.7rem;
+
+    }
+
+    .imagem-google img {
+
+        width: 100px;
+    }
+
+    .imagem-ios img {
+        width: 100px;
+
+
+    }
+
+    footer {
+
+        width: 100vw;
+        margin: 30px auto;
+    }
+
+}
+
+/* Quinta responsividade 500px */
+
+@media(max-width:500px) {
+
+    .caixa-imagens {
+
+        display: none;
+    }
+
+    .imagem-celular img {
+
+        display: none;
+    }
+
+    .imagens-instagram img {
+
+        display: none;
+    }
+
+}
+
+/* Sexta Responsividade 395px */
+
+@media(max-width:395px) {
+
+    .caixa-form {
+
+        width: 100%;
+        margin: 30px auto;
+        align-items: center;
+
+    }
+
+    .info {
+
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+
+    }
+
+
+    footer {
+
+        margin: 25px 0 25px 0;
+    }
 
 }
