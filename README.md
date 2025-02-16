@@ -19,5 +19,5 @@ Este projeto cria uma página interativa com a troca automática de imagens do I
 ![responsividade 395px](https://github.com/user-attachments/assets/8abc5ac0-7995-44ac-8a6d-80c13049a4b6)
 
 ## 🔗 Link do Projeto
-📌 [Acesse aqui]( https://andressacabrall.github.io//) 
+📌 [Acesse aqui](https://andressacabrall.github.io/Clone-Pagina-Instagram/)
 
